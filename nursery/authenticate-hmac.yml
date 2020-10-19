@@ -17,6 +17,6 @@ rule:
       - match: contain loop
       - count(characteristic(nzxor)): 2 or more
       - optional:
-        - description: block size
+        # - description: block size
         - number: 64 = MD5, SHA-1, SHA-224, or SHA-256
         - number: 128 = SHA-384 or SHA-512
